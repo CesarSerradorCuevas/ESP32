@@ -7,7 +7,6 @@ int status = WL_IDLE_STATUS;
 char packetBuffer[255];
 
 WiFiUDP server;
-WiFiClient client;
 
 void setup()
 {
